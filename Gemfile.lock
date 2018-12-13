@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    converter (0.0.1a1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.2)
+    colorize (0.8.1)
+    method_source (0.9.2)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  colorize
+  converter!
+  pry
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.1

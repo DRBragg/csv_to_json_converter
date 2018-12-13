@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# Added require in order to pull code from other files
+require "bundler/setup"
+require "converter"   # Executable file
+
+CLI.new.run
